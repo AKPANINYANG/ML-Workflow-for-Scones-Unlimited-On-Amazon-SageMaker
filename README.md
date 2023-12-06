@@ -13,18 +13,11 @@ The project consists of the following steps:
 6. Compose the Lambda functions together in a Step Function.
 7. Monitor the deployed model using Model Monitor.
 
-## Project Structure
-The project repository is structured as follows:
-- `notebooks/`: Contains Jupyter notebooks for each step of the project.
-- `lambda_functions/`: Includes the code for the Lambda functions.
-- `step_function/`: Contains the JSON export of the Step Function.
-- `data/`: Contains the dataset used for training the model.
-- `images/`: Includes sample images for making predictions.
 
 ## Getting Started
 To get started with the project, follow these steps:
 1. Set up a SageMaker Studio workspace.
-2. Open the Jupyter notebooks in the `notebooks/` directory and execute each cell to run the code.
+2. Open the Jupyter notebooks in the `starter.ipynb` file and execute each cell to run the code.
 3. Follow the instructions in the notebooks to complete the ETL, training, deployment, Lambda function creation, and Step Function composition.
 4. Monitor the deployed model using Model Monitor.
 5. Customize the project as needed and experiment with different configurations.
